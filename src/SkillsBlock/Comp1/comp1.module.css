@@ -1,23 +1,36 @@
-.iconDIv {
+.headerSkillsBox {
     display: flex;
     border: 1px solid white;
     align-items: flex-start;
     height: 20%;
 }
 
+.compContent {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    height: 80%;
+}
+
 .header {
     color: #dddddd;
     display: flex;
+    border: 1px solid #d55454;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 100px;
+    height: 30px;
 }
 
-.p {
+.text {
     color: #dddddd;
-    display: flex;
+    border: 1px solid #d55454;
 }
 
-.comp1Content {
-    display: flex;
-    align-items: flex-start;
-    border: 1px solid white;
-    height: 80%;
+.iconComponent {
+    width: 50px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 40px;
 }
